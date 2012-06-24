@@ -15,6 +15,9 @@
 		E61DF39A15975E7D003D4119 /* libbbCalendarView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E61DF38215975E7C003D4119 /* libbbCalendarView.a */; };
 		E61DF3A015975E7D003D4119 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E61DF39E15975E7D003D4119 /* InfoPlist.strings */; };
 		E61DF3A315975E7D003D4119 /* bbCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E61DF3A215975E7D003D4119 /* bbCalendarViewTests.m */; };
+		E61DF3AD15975EAF003D4119 /* Dates.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61DF3AC15975EAF003D4119 /* Dates.xib */; };
+		E61DF3AF15975EEF003D4119 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E61DF3AE15975EEF003D4119 /* frame.png */; };
+		E61DF3B015975F5F003D4119 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61DF39515975E7D003D4119 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +33,18 @@
 /* Begin PBXFileReference section */
 		E61DF38215975E7C003D4119 /* libbbCalendarView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbbCalendarView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61DF38515975E7C003D4119 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E61DF38915975E7C003D4119 /* bbCalendarView-Prefix.pch */ = {isa = PBXFileReference; path = "bbCalendarView-Prefix.pch"; sourceTree = "<group>"; };
-		E61DF38A15975E7C003D4119 /* bbCalendarView.h */ = {isa = PBXFileReference; path = bbCalendarView.h; sourceTree = "<group>"; };
+		E61DF38915975E7C003D4119 /* bbCalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bbCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		E61DF38A15975E7C003D4119 /* bbCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bbCalendarView.h; sourceTree = "<group>"; };
 		E61DF38B15975E7C003D4119 /* bbCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bbCalendarView.m; sourceTree = "<group>"; };
 		E61DF39215975E7C003D4119 /* bbCalendarViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bbCalendarViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61DF39315975E7C003D4119 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E61DF39515975E7D003D4119 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E61DF39D15975E7D003D4119 /* bbCalendarViewTests-Info.plist */ = {isa = PBXFileReference; path = "bbCalendarViewTests-Info.plist"; sourceTree = "<group>"; };
+		E61DF39D15975E7D003D4119 /* bbCalendarViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bbCalendarViewTests-Info.plist"; sourceTree = "<group>"; };
 		E61DF39F15975E7D003D4119 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E61DF3A115975E7D003D4119 /* bbCalendarViewTests.h */ = {isa = PBXFileReference; path = bbCalendarViewTests.h; sourceTree = "<group>"; };
+		E61DF3A115975E7D003D4119 /* bbCalendarViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bbCalendarViewTests.h; sourceTree = "<group>"; };
 		E61DF3A215975E7D003D4119 /* bbCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bbCalendarViewTests.m; sourceTree = "<group>"; };
+		E61DF3AC15975EAF003D4119 /* Dates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dates.xib; sourceTree = "<group>"; };
+		E61DF3AE15975EEF003D4119 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E61DF38615975E7C003D4119 /* Foundation.framework in Frameworks */,
+				E61DF3B015975F5F003D4119 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +103,8 @@
 		E61DF38715975E7C003D4119 /* bbCalendarView */ = {
 			isa = PBXGroup;
 			children = (
+				E61DF3AC15975EAF003D4119 /* Dates.xib */,
+				E61DF3AE15975EEF003D4119 /* frame.png */,
 				E61DF38A15975E7C003D4119 /* bbCalendarView.h */,
 				E61DF38B15975E7C003D4119 /* bbCalendarView.m */,
 				E61DF38815975E7C003D4119 /* Supporting Files */,
@@ -187,7 +195,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Digital Lighting Solutions";
+				ORGANIZATIONNAME = "The Buster Booth Company";
 			};
 			buildConfigurationList = E61DF37C15975E7C003D4119 /* Build configuration list for PBXProject "bbCalendarView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -213,6 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E61DF3A015975E7D003D4119 /* InfoPlist.strings in Resources */,
+				E61DF3AD15975EAF003D4119 /* Dates.xib in Resources */,
+				E61DF3AF15975EEF003D4119 /* frame.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +302,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -309,7 +319,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -319,6 +329,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/bbCalendarView.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bbCalendarView/bbCalendarView-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -331,6 +345,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/bbCalendarView.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bbCalendarView/bbCalendarView-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
