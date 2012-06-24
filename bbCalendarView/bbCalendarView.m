@@ -141,6 +141,9 @@
     }
     return @"(null)";
 }
+-(IBAction)makeGallery{
+    //use this function to do what you need to do when the user presses 'View Day'
+}
 -(IBAction)nextMonth:(id)sender{
     [self setDelta:[self getDelta] + 1];
     NSDate *today = [[NSDate alloc] init];

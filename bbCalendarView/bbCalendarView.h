@@ -118,6 +118,7 @@
 -(NSString *)monthString:(int)month;
 -(int)getDelta;
 -(void)setDelta:(int)value;
+-(IBAction)makeGallery;
 -(IBAction)today:(UIButton *)sender;
 -(void)getGoodDates;
 -(void)enableDates;
